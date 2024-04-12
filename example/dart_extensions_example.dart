@@ -5,6 +5,10 @@ String? generateValue(String v) {
 }
 
 void main() {
-  final v = generateValue('abc');
-  print(v);
+  final s = "some value";
+  final int length = s.let((value) => value.length);
+
+  final String ss = s.also((value) {
+    print(value);
+  });
 }

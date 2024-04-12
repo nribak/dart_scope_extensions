@@ -1,1 +1,1 @@
-typedef ScopeFunction<R, P> = R Function(P);
+typedef ScopeFunction<R, P> = R Function(P value);
