@@ -1,4 +1,5 @@
-import 'package:dart_extensions/src/typedefs.dart';
+
+import '../dart_scope_extensions.dart';
 
 extension ListExtensions<E extends Object> on Iterable<E> {
 

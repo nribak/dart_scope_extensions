@@ -1,4 +1,4 @@
-import 'package:dart_extensions/dart_extensions.dart';
+import 'package:dart_scope_extensions/dart_scope_extensions.dart';
 
 String? generateValue(String v) {
   return v.takeIf((value) => DateTime.now().millisecondsSinceEpoch % 2 == 0);

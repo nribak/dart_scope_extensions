@@ -1,7 +1,7 @@
-name: dart_extensions
-description: Extensions for objects and lists
+name: dart_scope_extensions
+description: Scope Extensions for objects and lists
 version: 1.0.0
-# repository: https://github.com/my_org/my_repo
+repository: https://bitbucket.org/nvribak/dart-extensions
 
 environment:
   sdk: ^3.3.2
